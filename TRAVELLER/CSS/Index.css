@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: arial;
+}
+
+a{
+    color: black;
+}
+
+p{
+    font-size: larger;
+    text-align: justify;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+.lista_categoria{
+    list-style-type: none;
+}
+
+#tabela{
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 25%;
+}
+
+#titulo_blog {
+margin-top: 20px;
+}
+
+#logo{
+    width:120px;
+    margin-left: 25px;
+}
+
+.historia{
+    align-items: center;
+    margin: 10px 25% ; 
+}
+
+#titulo_conhecer{
+    padding: 10px;
+}
+
+#lista_subtitulos{
+    background-color: beige;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+ }
+
+ #lista-menu a{
+    margin: 5px;
+    text-decoration: none;
+ }
+
+ nav{
+    display: flex;
+    width: 400px;
+ }
+
+ #lista-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.cabecalho h1 {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#imagens_inicio {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: beige;
+    width: 48%;
+    border-radius: 5%;
+
+}
+
+#imagens_inicio img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.cabecalho {
+    background-image: url("../ASSETS/cidade_de_sao_paulo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 45%;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardzinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#tiutlo_rodape{
+    background-color: beige;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 20px;
+}
+
+#rodape{
+    background-color: beige;
+    width: 100%;
+    margin-top: 0%;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+#paragrafo_final{
+    padding-top: 80px;
+}
